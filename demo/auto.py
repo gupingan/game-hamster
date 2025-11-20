@@ -124,6 +124,7 @@ def main():
         print(f'{RED}* 打包失败的目录如下：{RESET}')
     for i, f_dir in enumerate(failure_dirs):
         print(f'{BLUE}{i}{RESET}: {str(f_dir)}')
+    return None
 
 
 if __name__ == "__main__":
